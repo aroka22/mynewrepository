@@ -1,0 +1,18 @@
+This is the cheat sheet for git.
+
+=======================================================================
+
+Important Links:
+
+Intro to GIT http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
+
+Presentation on GIT http://www.slideshare.net/HubSpot/git-101-git-and-github-for-beginners
+
+======================================================================
+
+Important commands:
+
+Touch 
+
+
+
