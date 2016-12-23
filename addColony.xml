@@ -1,0 +1,41 @@
+<colonyconfig>
+   <colonies>
+      <colony name="STORE_GRP_01" version="9.2.1" pkprefix="11">
+         <schema poolid="DEFAULT_TRANSACTION_921" tabletype="TRANSACTION" />
+
+         <schema poolid="DEFAULT_TRANSACTION_921" tabletype="MASTER" />
+
+         <schema poolid="DEFAULT_STATISTICS_921" tabletype="STATISTICS" />
+      </colony>
+   </colonies>
+
+   <pools>
+      <pool id="DEFAULT_TRANSACTION_921">
+         <jdbc>
+            <param name="url" value="jdbc:oracle:thin:@localhost:1521:orcl" />
+
+            <param name="user" value="CONFIG921_UPGRD" />
+
+            <param name="password" value="CONFIG921_UPGRD" />
+
+            <param name="driver" value="oracle.jdbc.driver.OracleDriver" />
+
+            <param name="schema" value="CONFIG921_UPGRD" />
+         </jdbc>
+      </pool>
+
+      <pool id="DEFAULT_STATISTICS_921">
+         <jdbc>
+            <param name="url" value="jdbc:oracle:thin:@localhost:1521:orcl" />
+
+            <param name="user" value="CONFIG921_UPGRD" />
+
+            <param name="password" value="CONFIG921_UPGRD" />
+
+            <param name="driver" value="oracle.jdbc.driver.OracleDriver" />
+
+            <param name="schema" value="CONFIG921_UPGRD" />
+         </jdbc>
+      </pool>
+   </pools>
+</colonyconfig>
